@@ -1,0 +1,187 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  color: whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1558005137-d9619a5c539f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80");
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.links {
+  display: flex;
+  gap: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem 2rem 3rem;
+}
+.date {
+  background-color: rgba(188, 184, 184, 0.436);
+  width: 20rem;
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin: 3rem 3rem 1rem 3rem;
+  /* padding: 2rem 3rem 2rem 3rem; */
+}
+.banner-text {
+  padding: 0 3rem 0 3rem;
+  margin-right: 45rem;
+}
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.button {
+  color: black;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 0.9rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}
+.b-text {
+  display: grid;
+  grid-template-columns: 20rem 25rem;
+  margin: 3rem 0 2rem 3rem;
+  gap: 2rem;
+}
+.b-text button {
+  padding: 0.3rem;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+.maintext {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem 4.5rem 0 5rem;
+}
+.maintext img {
+  width: 25rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.main-button {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.main-button button {
+  border: 1px solid black;
+  padding: 0.8rem;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.main-button button:hover {
+  color: rgb(8, 8, 8);
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(0, 0, 0);
+}
+.main {
+  display: grid;
+  grid-template-columns: 35rem 2px auto;
+  gap: 5rem;
+  margin-bottom: 3rem;
+}
+.tour-shift {
+  padding: 4rem 5rem 0 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.shift {
+  padding: 2rem 5rem 0 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.events {
+  display: grid;
+  grid-template-columns: 20rem 30rem;
+  padding: 1rem 3rem 0 5rem;
+  gap: 20rem;
+}
+.place {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.place h1 {
+  font-size: 50px;
+}
+.back-g {
+  background-color: #0175f0;
+  margin-top: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 20rem auto 30rem;
+  padding: 2.5rem 4rem 2.5rem 5rem;
+  gap: 1rem;
+}
+.back-g img {
+  width: 15rem;
+}
+.bajo-b button {
+  color: #0175f0;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+}
+.bajo-b button:hover {
+  background-color: #0175f0;
+  color: white;
+}
+.shift-hr {
+  margin: 2rem 5rem 4rem 5rem;
+}
+.journey {
+  background-color: black;
+  color: white;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 25rem 30rem auto;
+  gap: 3rem;
+}
+.journey h1 {
+  font-size: 50px;
+}
+.journey p {
+  margin-top: 3rem;
+}
+.btn {
+  background-color: transparent;
+  border: 1px white solid;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.29);
+  color: black;
+}
