@@ -233,4 +233,20 @@ a {
   .shift-sec h1 {
     font-size: 1.5rem;
   }
+  .events {
+    grid-template-columns: repeat(1, auto);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .place h1 {
+    font-size: 2rem;
+  }
+  .back-g {
+    grid-template-columns: repeat(1, auto);
+    padding: 2rem;
+  }
+  .back-g img {
+    width: 100%;
+  }
 }
