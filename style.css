@@ -252,6 +252,11 @@ a {
     width: 100%;
   }
   .journey {
-    display: none;
+    grid-template-columns: repeat(1, auto);
+    gap: 1rem;
+  }
+  .btn {
+    /* align-items: center; */
+    margin-left: 2rem;
   }
 }
