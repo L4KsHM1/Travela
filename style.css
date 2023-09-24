@@ -211,7 +211,6 @@ a {
     grid-template-rows: repeat(2, 1fr);
     margin: 1rem;
     margin-top: 1rem;
-    padding: 1rem;
   }
   .main {
     grid-template-columns: repeat(1, auto);
