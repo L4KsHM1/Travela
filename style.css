@@ -226,9 +226,11 @@ a {
   }
   .tour-shift {
     padding: 1rem;
+    background-color: rgb(180, 176, 176);
   }
   .shift {
     padding: 1rem;
+    background-color: rgb(180, 176, 176);
   }
   .shift-sec h1 {
     /* font-size: 1.5rem; */
