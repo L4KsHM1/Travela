@@ -249,4 +249,7 @@ a {
   .back-g img {
     width: 100%;
   }
+  .journey {
+    display: none;
+  }
 }
